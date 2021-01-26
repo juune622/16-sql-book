@@ -1,0 +1,22 @@
+@use 'mixin';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500&display=swap');
+
+a{
+	&:link{color: inherit;}
+	&:visited{color: inherit;}
+	&:active{color: inherit;}
+	&:hover{color: inherit;}
+}
+
+header {
+	.top-wrapper{
+		display: flex;
+		a {padding: 0.75em 1.5em;}
+	}
+	.header-wrapper{
+
+	}
+}
